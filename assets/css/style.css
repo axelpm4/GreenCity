@@ -1,7 +1,7 @@
 /* ===== import de police ===== */
 @font-face {
   font-family: "NaturalFolklore";
-  src: url('/assets/fonts/NATURAL\ FOLKLORE\ DEMO.otf') format('opentype');
+  src: url('../fonts/NATURAL\ FOLKLORE\ DEMO.otf') format('opentype');
 }
 
 /* ===== mise en page ===== */
@@ -70,7 +70,7 @@ body {
 /* ===== ici c'est le header ===== */
 header {
   margin-top: 80px;
-  background: url(/assets/images/villeverte.jpg) no-repeat center center;
+  background-image: url('../images/villeverte.jpg');
   background-size: cover;
   height: 70vh;
   display: flex;
@@ -629,23 +629,23 @@ img {
 /*Lien pour les images des cartes*/
 
 .card4[for="c1"] {
-    background-image: url(/assets/images/Bike.png);
+    background-image: url(../images/Bike.png);
 }
 
 .card4[ for="c2"] {
-   background-image: url(/assets/images/Balcons.png);
+   background-image: url(../images/Balcons.png);
 }
 
 .card4[ for="c3"] {
-   background-image: url(/assets/images/Arbres.png);
+   background-image: url(../images/Arbres.png);
 }
 
 .card4[ for="c4"] {
-   background-image: url(/assets/images/eolienne.jpeg);
+   background-image: url(../images/eolienne.jpeg);
 }
 
 .card4[ for="c5"] {
-   background-image: url(/assets/images/Nettoyage.png);
+   background-image: url(../images/Nettoyage.png);
 }
 
 /*numérotation des cartes (1,2,3,4,5)*/

@@ -753,43 +753,115 @@ button:hover {
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-/* ===== responsive ===== */
 @media (max-width: 768px) {
-  .hero-center h1 {
-    font-size: 32px;
-  }
-
-  .accroche {
-    font-size: 22px;
-    padding: 15px;
-  }
-
   .navbar {
     flex-direction: column;
     align-items: center;
+    padding: 10px;
     gap: 10px;
-    padding: 10px 0;
-    text-align: center;
+    position: static;
   }
 
   .menu-navbar {
     flex-direction: column;
     gap: 10px;
-  }
-
-  .titre-navbar {
-    display: none;
-  }
-
-  .image-emplacement {
-    flex-direction: column;
-  }
-
-  .card {
     width: 100%;
+    text-align: center;
   }
 
-  .card img {
-    height: 180px;
+  .box1, .box2, .box3, .box4, .box5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto 40px; /* ajoute marge en bas */
+  }
+
+  .box1 .img,
+  .box2 .img,
+  .box3 .img,
+  .box4 .img,
+  .box5 .img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .box1 .text,
+  .box2 .text,
+  .box3 .text,
+  .box4 .text,
+  .box5 .text {
+    margin-top: 0;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .text2 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .img-emplacement {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card3 {
+    width: 90%;
+  }
+
+  .equipe {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .carte {
+    width: 90%;
+  }
+
+  .accroche {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  header {
+    height: auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 30px 0 15px;
+    padding-left: 5px;
+  }
+  .carte {
+    width: 90%;
+  }
+
+  .accroche {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  header {
+    height: auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 30px 0 15px;
+    padding-left: 5px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
 }
